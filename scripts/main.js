@@ -5,15 +5,11 @@ pagePic.onclick = function() {
     if (mySrc === 'images/ahs-logo.png') {
         pagePic.setAttribute('src', 'images/baby-fritz.jpg');
     } else {
+        alert('Ouch! Stop poking me!');
         pagePic.setAttribute('src', 'images/ahs-logo.png');
     }
 }
 
-
-
-document.querySelector('h1').onclick = function() {
-    alert('Ouch! Stop poking me!');
-}
 
 /*document.querySelector('img').onclick = function() {
     alert('Hi!');
